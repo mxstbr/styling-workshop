@@ -1,19 +1,18 @@
-# React in Flip Flops
+# Lab #1: React Basics
 
-Welcome, we're happy to have you here with us in Las Palmas! 🌴☀️🏄
+Your task in this lab is to create a simple todo list.
 
-Before the workshop starts please make sure you can get this repository and run it locally:
+The items on that list are defined in the `items` variable in the `index.js` file and are passed into the `TodoList.js` component as `this.props.items`.
 
+The `TodoList` should then render one `TodoItem.js` per item passed to it via `this.props.items`.
+
+The `TodoItem` renders the item as an `<input type="checkbox" />` with a label that contains the text and that is either checked or unchecked.
+
+```sh
+index.js    # This ReactDOM.renders and passes the items to the TodoList
+TodoList.js # This should render the TodoItems
+TodoItem.js # This should render a todo item
 ```
-git clone https://github.com/mxstbr/riff.git
-cd riff
-npm install
-npm start
-```
-
-A browser window should open at `localhost:3000` (if not, try going to that URL manually) and you should see a welcome message. If so, you're set up and ready to go! 
-
-Make sure you have [`git`](https://git-scm.com/) and the latest stable version of [Node.js](https://nodejs.org/en/) installed. If any of these commands fail, please reinstall the relevant binary.
 
 ## License
 
