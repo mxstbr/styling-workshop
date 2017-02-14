@@ -1,0 +1,9 @@
+exports[`test should render a todo item as a checkbox with a label 1`] = `
+<label>
+  <input
+    checked={true}
+    readOnly={true}
+    type="checkbox" />
+  Get to Las Palmas 🌴
+</label>
+`;

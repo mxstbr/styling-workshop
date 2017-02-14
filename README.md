@@ -1,8 +1,10 @@
 # Lab #1: React Basics
 
-Your task in this lab is to create a simple todo list.
+Your task in this lab is to create a simple todo list. This is what the finished app should look like:
 
-The items on that list are defined in the `items` variable in the `index.js` file and are passed into the `TodoList.js` component as `this.props.items`.
+![Three todo items](https://cloud.githubusercontent.com/assets/7525670/22934361/f813c728-f2ce-11e6-931f-68d4775a7541.png)
+
+You need to fill out the `TodoList.js` and the `TodoItem.js` components. The items to be rendered are defined in the `items` variable in the `index.js` file and are passed into the `TodoList.js` component as `this.props.items`.
 
 The `TodoList` should then render one `TodoItem.js` per item passed to it via `this.props.items`.
 
@@ -13,6 +15,16 @@ index.js    # This ReactDOM.renders and passes the items to the TodoList
 TodoList.js # This should render the TodoItems
 TodoItem.js # This should render a todo item
 ```
+
+## Testing
+
+To make it easier for you to complete this task, we've added snapshot tests verifying that you've arrived at the correct app. This command will run the tests:
+
+```sh
+npm run test
+```
+
+If you haven't changed anything you should see two test failures showing you what exactly we expect the app to do.
 
 ## License
 

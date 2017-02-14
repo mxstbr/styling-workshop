@@ -1,0 +1,19 @@
+exports[`test should render the passed-in items 1`] = `
+<ul>
+  <li>
+    <TodoItem
+      checked={true}
+      text="Get to Las Palmas 🌴" />
+  </li>
+  <li>
+    <TodoItem
+      checked={false}
+      text="Learn the basics of React 👩‍🎓" />
+  </li>
+  <li>
+    <TodoItem
+      checked={false}
+      text="Go surfing 🏄" />
+  </li>
+</ul>
+`;
