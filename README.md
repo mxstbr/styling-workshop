@@ -1,30 +1,22 @@
-# Lab #1: React Basics
+# Lab #2: Interaction and State Management
 
-Your task in this lab is to create a simple todo list. This is what the finished app should look like:
+Your task in this lab is to make the todo list from the last lab interactive. (we've pre-filled the solution from the last lab, you won't have to do that again!) It should be possible to check items and to add new items.
 
-![Three todo items](https://cloud.githubusercontent.com/assets/7525670/22934361/f813c728-f2ce-11e6-931f-68d4775a7541.png)
+This is what the finished app should look like:
 
-You need to fill out the `TodoList.js` and the `TodoItem.js` components. The items to be rendered are defined in the `items` variable in the `index.js` file and are passed into the `TodoList.js` component as `this.props.items`.
+![Checking todos and adding new ones](https://cloud.githubusercontent.com/assets/7525670/22978746/4121f3de-f394-11e6-8e19-f366754d0f47.gif)
 
-The `TodoList` should then render one `TodoItem.js` per item passed to it via `this.props.items`.
-
-The `TodoItem` renders the item as an `<input type="checkbox" />` with a label that contains the text and that is either checked or unchecked.
-
-```sh
-index.js    # This ReactDOM.renders and passes the items to the TodoList
-TodoList.js # This should render the TodoItems
-TodoItem.js # This should render a todo item
-```
+You'll need to fill out the `TodoInput.js` component, and add some functionality to `TodoItem` and (mostly) `TodoList`.
 
 ## Testing
 
-To make it easier for you to complete this task, we've added snapshot tests verifying that you've arrived at the correct app. This command will run the tests:
+To make it easier for you to complete this task, we've (again) added tests verifying that you've arrived at the correct app. This command will run the tests:
 
 ```sh
 npm run test
 ```
 
-If you haven't changed anything you should see two test failures showing you what exactly we expect the app to do.
+If you haven't changed anything you should see test failures showing you what exactly we expect the app to do. (or a "Component not found" for the `TodoInput` if you haven't created the input yet)
 
 ## License
 
