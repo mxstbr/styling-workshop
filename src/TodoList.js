@@ -1,5 +1,5 @@
 /**
- * This component should render the TodoItems inside a <li>
+ * This component should manage the todo items, letting users check existing ones and add new ones
  */
 import React, { Component } from 'react';
 import TodoItem from './TodoItem';
