@@ -8,8 +8,8 @@ class TodoList extends Component {
 	render() {
 		return (
 			<ul>
-				{this.props.items.map(item => (
-					<li key={item.text}><TodoItem text={item.text} checked={item.checked} /></li>
+				{this.props.items.map((item, index) => (
+					<li key={index}><TodoItem text={item.text} checked={item.checked} /></li>
 				))}
 			</ul>
 		)
