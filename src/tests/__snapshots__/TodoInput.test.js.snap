@@ -1,6 +1,0 @@
-exports[`test should render an input 1`] = `
-<input
-  onChange={[Function]}
-  type="text"
-  value="hello" />
-`;
