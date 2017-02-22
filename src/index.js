@@ -13,7 +13,7 @@ const weather = {
 ReactDOM.render(
   <div>
     <h1>The Weather in Las Palmas</h1>
-    <Plot x={weather.xData} y={weather.yData} type="scatter" />
+    <Plot xData={weather.xData} yData={weather.yData} type="scatter" />
   </div>,
   document.getElementById('root')
 );

@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <title>React in Flip Flops</title>
-    <script src="https://cdn.plot.ly/plotly-1.8.0.min.js"></script>
   </head>
   <body>
     <div id="root"></div>
 
     <!--
-      TODO: Delete the code below (including the <div />) and build the <Plot /> component to render
-      via React!
+      TODO: Delete the code below (including the <script /> and the <div />) and build the <Plot />
+      component to render via React!
     -->
-    <div id="plot"></div>
+    <div id="html-plot"></div>
+    <script src="https://cdn.plot.ly/plotly-1.8.0.min.js"></script>
     <script>
-      Plotly.newPlot('plot', [{
+      Plotly.newPlot('html-plot', [{
         x: [1, 2, 3, 4, 5],
         y: [1, 4, 9, 16, 25],
         type: 'scatter'

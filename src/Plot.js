@@ -9,3 +9,31 @@
  * (and feel free to delete the code in there)
  */
 import React, { Component } from 'react';
+import Plotly from 'plotly.js/dist/plotly.js';
+
+class Plot extends Component {
+	componentDidMount() {
+		Plotly.newPlot(this.plot, [{
+			x: this.props.xData,
+			y: this.props.yData,
+			type: this.props.type
+		}], {
+			margin: {
+				t: 0, r: 0, l: 30
+			},
+			xaxis: {
+				gridcolor: 'transparent'
+			}
+		}, {
+			displayModeBar: false
+		});
+	}
+
+	render() {
+		return (
+			<div ref={ref => this.plot = ref} />
+		)
+	}
+}
+
+export default Plot;
