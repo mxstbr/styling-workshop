@@ -1,24 +1,20 @@
-# Lab #3: Lifecycles and Performance
+# Lab #4: Styling
 
-Your task in this lab is to render a graph from the weather data for Las Palmas with the `Plotly` library.
+Your task in this lab is to style our weather application in three different ways:
 
-This is what the finished app should look like:
+- Inline styles
+- CSS Modules
+- `styled-components`
 
-![A rendered graph showing what the weather is like in Las Palmas](https://cloud.githubusercontent.com/assets/7525670/23337289/cfb5696c-fbe8-11e6-962f-790e6f6c2c09.png)
+We've pre-filled out the solution of the last lab (so you don't have to do that again) and styled it with a global CSS file. (`src/global.css`) You have to move those styles to the new way and make sure it looks as close to the original as possible.
 
-You'll need to fill out the `Plot.js` component. The data for the weather is passed in from `index.js`. To find out how `Plotly` works see `public/index.html` for an example plot!
+This lab is based on three branches (`4-styling-inline-styles`, `4-styling-css-modules`, `4-styling-styled-components`) that have the same starting point. Take the styles in `src/global.css`, comment all of them out and get cracking!
 
-The important part of this lab is that your `Graph` component should be as performant as possible. This means re-rendering the graph every time the data changes, not more and not less. (yes there are tests for the expected behaviour)
+This is what the finished app looks like (and should look like after converting it to a different library):
 
-## Testing
+![A styled weather app](https://cloud.githubusercontent.com/assets/7525670/23337289/cfb5696c-fbe8-11e6-962f-790e6f6c2c09.png)
 
-To make it easier for you to complete this task, we've (again) added tests verifying that you've arrived at the correct app. This command will run the tests:
-
-```sh
-npm run test
-```
-
-If you haven't changed anything you should see test failures showing you what exactly we expect the app to do. (or a "Component not found" for the `Plot` if you haven't created the Component yet)
+There are no unit tests verifying the correct solution—if your app looks the same with the moved styles that's it! (note that a 1:1 move might, in some cases, not be possible)
 
 ## License
 

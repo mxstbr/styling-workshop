@@ -8,28 +8,5 @@
   </head>
   <body>
     <div id="root"></div>
-
-    <!--
-      TODO: Delete the code below (including the <script /> and the <div />) and build the <Plot />
-      component to render via React!
-    -->
-    <div id="html-plot"></div>
-    <script src="https://cdn.plot.ly/plotly-1.8.0.min.js"></script>
-    <script>
-      Plotly.newPlot('html-plot', [{
-        x: [1, 2, 3, 4, 5],
-        y: [1, 4, 9, 16, 25],
-        type: 'scatter'
-      }], {
-        margin: {
-          t: 0, r: 0, l: 30
-        },
-        xaxis: {
-          gridcolor: 'transparent'
-        }
-      }, {
-        displayModeBar: false
-      });
-    </script>
   </body>
 </html>
