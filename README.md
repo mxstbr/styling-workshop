@@ -1,16 +1,8 @@
-# Lab #4: Styling
+# Lab #4: `styled-components`
 
-Your task in this lab is to style our weather application in three different ways:
+Your task on this branch is to style our weather application with `styled-components`. Take the styles in `src/global.css`, comment all of them out and get cracking!
 
-- Inline styles
-- CSS Modules
-- `styled-components`
-
-We've pre-filled out the solution of the last lab (so you don't have to do that again) and styled it with a global CSS file. (`src/global.css`) You have to move those styles to the new way and make sure it looks as close to the original as possible.
-
-This lab is based on three branches (`4-styling-inline-styles`, `4-styling-css-modules`, `4-styling-styled-components`) that have the same starting point. Take the styles in `src/global.css`, comment all of them out and get cracking!
-
-This is what the finished app looks like (and should look like after converting it to a different library):
+As a reminder, this is what the finished app looks like (and should look like after converting it to a different library):
 
 ![A styled weather app](https://cloud.githubusercontent.com/assets/7525670/23337289/cfb5696c-fbe8-11e6-962f-790e6f6c2c09.png)
 
