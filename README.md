@@ -1,12 +1,14 @@
-# Lab #2: Interaction and State Management
+# Lab #3: Lifecycles and Performance
 
-Your task in this lab is to make the todo list from the last lab interactive. (we've pre-filled the solution from the last lab, you won't have to do that again!) It should be possible to check items and to add new items.
+Your task in this lab is to render a graph from the weather data for Las Palmas with the `Plotly` library.
 
 This is what the finished app should look like:
 
-![Checking todos and adding new ones](https://cloud.githubusercontent.com/assets/7525670/22978746/4121f3de-f394-11e6-8e19-f366754d0f47.gif)
+![A rendered graph showing what the weather is like in Las Palmas](https://cloud.githubusercontent.com/assets/7525670/23337289/cfb5696c-fbe8-11e6-962f-790e6f6c2c09.png)
 
-You'll need to fill out the `TodoInput.js` component, and add some functionality to `TodoItem` and (mostly) `TodoList`.
+You'll need to fill out the `Plot.js` component. The data for the weather is passed in from `index.js`. To find out how `Plotly` works see `public/index.html` for an example plot!
+
+The important part of this lab is that your `Graph` component should be as performant as possible. This means re-rendering the graph every time the data changes, not more and not less. (yes there are tests for the expected behaviour)
 
 ## Testing
 
@@ -16,7 +18,7 @@ To make it easier for you to complete this task, we've (again) added tests verif
 npm run test
 ```
 
-If you haven't changed anything you should see test failures showing you what exactly we expect the app to do. (or a "Component not found" for the `TodoInput` if you haven't created the input yet)
+If you haven't changed anything you should see test failures showing you what exactly we expect the app to do. (or a "Component not found" for the `Plot` if you haven't created the Component yet)
 
 ## License
 
