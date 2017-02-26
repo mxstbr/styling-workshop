@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Plot from './Plot';
-import './global.css';
 
 // The weather data
 const weather = {

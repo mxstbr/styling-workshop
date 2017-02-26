@@ -1,6 +1,6 @@
 # Lab #4: `styled-components`
 
-Your task on this branch is to style our weather application with `styled-components`. Take the styles in `src/global.css`, comment all of them out and get cracking!
+Your task on this branch is to style our weather application with `styled-components`. Take the styles in `public/global.css`, comment all of them out and get cracking!
 
 As a reminder, this is what the finished app looks like (and should look like after converting it to a different library):
 
