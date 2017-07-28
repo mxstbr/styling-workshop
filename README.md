@@ -8,9 +8,9 @@ Follow these steps to get the repo:
 
 ```sh
 # Download the repo
-git clone https://github.com/reactinflipflops/riff.git
+git clone https://github.com/mxstbr/styling-workshop.git
 # Go into the newly downloaded directory
-cd riff
+cd styling-workshop
 # Install all the dependencies (can also run yarn)
 npm install
 # Start the app
