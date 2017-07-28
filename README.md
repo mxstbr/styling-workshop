@@ -31,7 +31,13 @@ Your task in this lab is to style our weather application in three different way
 
 We've built a React app and styled it with a global CSS file on this branch. (`public/global.css`) You have to move those styles to the new way and make sure it looks as close to the original as possible.
 
-This lab is based on three branches (`inline-styles`, `css-modules`, `styled-components`) that have the same starting point. Take the styles in `public/global.css`, comment all of them out and get cracking!
+## Getting started
+
+This lab is based on three branches (`inline-styles`, `css-modules`, `styled-components`) that have the same starting point. Get started with the `inline-styles` branch:
+
+```
+git checkout inline-styles
+```
 
 In case you aren't running it locally anymore, this is what the finished app looks like (and should look like after converting it to a different library):
 
