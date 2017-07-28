@@ -12,7 +12,7 @@ const weather = {
 
 ReactDOM.render(
   <div className="wrapper">
-    <h1 className="title">The Weather in Las Palmas</h1>
+    <h1 className="title">Las Palmas Weather in Febuary</h1>
     <Plot xData={weather.xData} yData={weather.yData} type="scatter" />
   </div>,
   document.getElementById('root')
