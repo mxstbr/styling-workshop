@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import styled from 'styled-components';
 import Plot from './Plot';
 
 // The weather data
@@ -11,8 +12,8 @@ const weather = {
 }
 
 ReactDOM.render(
-  <div className="wrapper">
-    <h1 className="title">The Weather in Las Palmas</h1>
+  <div>
+    <h1>Las Palmas Weather in Febuary</h1>
     <Plot xData={weather.xData} yData={weather.yData} type="scatter" />
   </div>,
   document.getElementById('root')

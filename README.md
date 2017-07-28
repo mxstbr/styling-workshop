@@ -1,13 +1,11 @@
-# Lab #4: `styled-components`
+# `styled-components`
 
 Your task on this branch is to style our weather application with `styled-components`. Take the styles in `public/global.css`, comment all of them out and get cracking!
 
-As a reminder, this is what the finished app looks like (and should look like after converting it to a different library):
+As a reminder, to see the finished app go to https://styling-workshop.now.sh. This is what the finished app looks like (and should look like after converting it to a different library):
 
 ![The finished app with styling](https://cloud.githubusercontent.com/assets/7525670/23343771/9145b31e-fc68-11e6-93e3-4002416b9608.png)
 ![The finished app as seen on a phone](https://cloud.githubusercontent.com/assets/7525670/23343772/914aad38-fc68-11e6-91c4-dd55dd0e875f.png)
-
-There are no unit tests verifying the correct solution—if your app looks the same with the moved styles that's it! (note that a 1:1 move might, in some cases, not be possible)
 
 ## License
 
