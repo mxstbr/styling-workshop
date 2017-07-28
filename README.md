@@ -7,6 +7,10 @@ As a reminder, to see the finished app go to https://styling-workshop.now.sh. Th
 ![The finished app with styling](https://cloud.githubusercontent.com/assets/7525670/23343771/9145b31e-fc68-11e6-93e3-4002416b9608.png)
 ![The finished app as seen on a phone](https://cloud.githubusercontent.com/assets/7525670/23343772/914aad38-fc68-11e6-91c4-dd55dd0e875f.png)
 
+## Next steps
+
+Once you're done styling your app with `styled-components` that's it, you're done with the workshop! Congratulations, I hope you got a bit of an overview on how to style react applications.
+
 ## License
 
 Copyright (C) 2017  Maximilian Stoiber & Nikolaus Graf. You may use this repo for non-commercial use under the GPLv3 license.
