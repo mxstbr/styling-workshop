@@ -1,15 +1,13 @@
-# Lab #4: CSS Modules
+# CSS Modules
 
 Your task on this branch is to style our weather application with CSS Modules. Take the styles in `public/global.css`, comment all of them out and get cracking!
 
 Note that there is a few more folders on this branch than on the others. (`config/`, `scripts/`) That's because we had to eject `create-react-app` to add support for CSS modules to it. **Ignore the extra folders and focus on the task at hand**.
 
-As a reminder, this is what the finished app looks like (and should look like after converting it to CSS modules):
+As a reminder, to see the finished app visit https://styling-workshop.now.sh. This is what the finished app looks like (and should look like after converting it to CSS modules):
 
 ![The finished app with styling](https://cloud.githubusercontent.com/assets/7525670/23343771/9145b31e-fc68-11e6-93e3-4002416b9608.png)
 ![The finished app as seen on a phone](https://cloud.githubusercontent.com/assets/7525670/23343772/914aad38-fc68-11e6-91c4-dd55dd0e875f.png)
-
-There are no unit tests verifying the correct solution—if your app looks the same with the moved styles that's it! (note that a 1:1 move might, in some cases, not be possible)
 
 ## License
 
